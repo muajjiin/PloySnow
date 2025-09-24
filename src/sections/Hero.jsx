@@ -1,6 +1,7 @@
 import React from 'react';
 import { words } from '../constants/index.js';
 import Button from '../components/Button.jsx'; // ✅ Make sure this path is correct
+import HeroExperience from '../components/models/hero_models/HeroExperience.jsx';
 
 const Hero = () => {
   return (
@@ -56,6 +57,15 @@ const Hero = () => {
             />
           </div>
         </header>
+
+                    {/* Right Side 3d model */}
+
+                    <figure>
+                      <div className='hero-3d-layout border-red-200' >
+                      <HeroExperience/>
+                      </div>
+                    </figure>
+
       </div>
     </section>
   );
