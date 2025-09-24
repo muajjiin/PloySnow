@@ -1,0 +1,50 @@
+[33mcommit ea3b26f50f726836c8b78602ed7f912a82f47fdc[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Tue Sep 23 21:56:11 2025 +0600
+
+    Initial commit of project files
+
+[33mcommit 68ac535b42f72d151acb4afebdc2ba14028d72bb[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Tue Sep 23 22:05:13 2025 +0600
+
+    Initial commit
+
+[33mcommit c5bccd8cfb5b71ebdb3550b7e7b94ca34f29d32d[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Wed Sep 24 00:04:27 2025 +0600
+
+    Organize components and sections into separate folders
+
+[33mcommit d062f1160aa94b80e36e2f06da70eecfe569a97a[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Wed Sep 24 13:35:04 2025 +0600
+
+    Fix: corrected Hero component structure and imports
+
+[33mcommit 092929aab7d34f6ce1490e351495290cd919304c[m[33m ([m[1;31morigin/feature/components-sections[m[33m)[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Wed Sep 24 15:10:03 2025 +0600
+
+    Add lights to HeroExperience component
+
+[33mcommit 264f9aa8e438697254c0402d8d024ec86b957fc2[m
+Merge: 68ac535 092929a
+Author: elisha <136813629+muajjiin@users.noreply.github.com>
+Date:   Wed Sep 24 15:42:51 2025 +0600
+
+    Merge pull request #1 from muajjiin/feature/components-sections
+    
+    Feature/components sections
+
+[33mcommit 8573c066165f0cde76c9d61f60aaaabd70f6390d[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Wed Sep 24 17:53:13 2025 +0600
+
+    making animated counter cards
+
+[33mcommit ee28e6fc23cfca932b68e8841699b8afbafd2a58[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: elisha <korosenseimark40@gmail.com>
+Date:   Wed Sep 24 19:35:49 2025 +0600
+
+    making ShowcaseSection.jsx
