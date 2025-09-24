@@ -1,9 +1,18 @@
 import React from 'react';
 import { words } from '../constants/index.js';
-import Button from '../components/Button.jsx'; // ✅ Make sure this path is correct
+import Button from '../components/Button.jsx';  
 import HeroExperience from '../components/models/hero_models/HeroExperience.jsx';
-
+import AnimatedCounter from '../components/AnimatedCounter.jsx';
+import { useGSAP} from '@gsap/react';
+import gsap from 'gsap';
 const Hero = () => {
+   useGSAP(() => {
+    gsap.fromTo(
+      ".hero-text h1",
+      { y: 50, opacity: 0 },
+      { y: 0, opacity: 1, stagger: 0.2, duration: 1, ease: "power2.inOut" }
+    );
+  });
   return (
     <section id="hero" className="relative overflow-hidden">
       {/* Background Image */}
@@ -67,6 +76,7 @@ const Hero = () => {
                     </figure>
 
       </div>
+      <AnimatedCounter />
     </section>
   );
 };
