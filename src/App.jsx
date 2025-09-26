@@ -5,6 +5,7 @@ import LogoShowcase from './sections/LogoShowcase.jsx'
 import FeatureCards from './sections/FeatureCards.jsx'
 import Experience from './sections/Experience.jsx'
 import TechStack from './sections/TechStack.jsx'
+import Testimonials from './sections/Testimonials.jsx'
 const App = () => {
   return (
     <>
@@ -14,7 +15,8 @@ const App = () => {
       {/* <LogoShowcase /> */}
       {/* <FeatureCards /> */}
       {/* <Experience /> */}
-      <TechStack />
+      {/* <TechStack /> */}
+      <Testimonials />
     </>
   )
 }
