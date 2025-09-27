@@ -1,28 +1,28 @@
 import React, { useEffect, useState } from 'react'
 import { navLinks } from '../constants'
 const NavBar = () => {
-  const [scrolled,setScorlled] = useState(false);
+  const [scrolled, setScorlled] = useState(false);
 
-  useEffect(()=>{
-    const handleScroll =() =>{
-     const isScorlled = window.scroll >10;
-     setScorlled(true) 
+  useEffect(() => {
+    const handleScroll = () => {
+      const isScorlled = window.scroll > 10;
+      setScorlled(true)
     }
 
 
-    window.addEventListener('scroll',handleScroll);
+    window.addEventListener('scroll', handleScroll);
 
-    return ()=> window.removeEventListener('scroll',handleScroll);
-  },[])
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [])
   return (
-      <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
+    <header className={`navbar ${scrolled ? "scrolled" : "not-scrolled"}`}>
       <div className='inner'>
-    <a href="#hero" className='logo'
-    >
-      Elisha | ABN
-    </a>
+        <a href="#hero" className='logo'
+        >
+          Minhaz| ABN
+        </a>
 
-       
+
         <nav className="desktop">
           <ul>
             {navLinks.map(({ link, name }) => (

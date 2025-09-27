@@ -8,19 +8,20 @@ import Experience from './sections/Experience.jsx';
 import TechStack from './sections/TechStack.jsx';
 import Testimonials from './sections/Testimonials.jsx';
 import ContactExperience from './sections/Contact.jsx';
-
+import Footer from './sections/Footer.jsx';
 const App = () => {
   return (
     <>
       <NavBar />
-      {/* <Hero /> */}
-      {/* <ShowcaseSection /> */}
-      {/* <LogoShowcase /> */}
-      {/* <FeatureCards /> */}
-      {/* <Experience /> */}
-      {/* <TechStack /> */}
-      {/* <Testimonials /> */}
+      <Hero />
+      <ShowcaseSection />
+      <LogoShowcase />
+      <FeatureCards />
+      <Experience />
+      <TechStack />
+      <Testimonials />
       <ContactExperience />
+      <Footer />
     </>
   )
 }
